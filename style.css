@@ -1,27 +1,86 @@
+body, html {
+	font-family:'Lato', sans-serif ;
+}
+.mainDetails {
+	display: flex;	
+	background-color:#f3f3f3;
+}
+
+#top {
+	background-color:#444444;
+	
+}
+#cv {
+	background-color: #f3f3f3;
+	width:45%;
+	margin-left:22.5%;
+	margin-right:22.5%;
+	padding: 70px;
+}
 .clear {
 	clear: both;
 }
 
 #headshot {
 	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+	margin:20px;
+	border-radius: 100px;
+	width:90px;
 }
 
 #name {
-	float: left;
+    text-align: left;
+	margin:30px auto 0px 10px;
+	line-height: 4px;
+
 }
 
 #contactDetails {
-	float: right;
+	margin:20px 25px 0px 0px
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 14px;
+	color:#cf8a05;
+	font-style: italic;	
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+.phr {
+	border:2px solid #cf8a05;
+}
+#hrssecundarias {
+	border: 1px solid #dedede; 
+}
+.sectionTitle1 {
+	float: left;
+	font-size: 18px;
+	color:#cf8a05;
+	font-style: italic;
+}
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+.keySkills {
+	font-size: 1em;
+	color:#444444;
+	list-style-type: none;
+	column-count: 3;
+	margin-bottom: 20px;
+}
+p {
+	color:#444444;
+}
+.subDetails {
+	font-style: italic;
+	font-size: 14px;
+	line-height: 0px;
 }
