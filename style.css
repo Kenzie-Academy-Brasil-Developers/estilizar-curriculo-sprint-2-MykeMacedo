@@ -72,18 +72,19 @@ h2 {
 }
 .keySkills {
 	font-size: 1em;
-	color:#444444;
+	color:#181818;
 	list-style-type: none;
 	column-count: 3;
 	margin-bottom: 20px;
 }
 p {
-	color:#444444;
+	color:#181818;
 }
 .subDetails {
 	font-style: italic;
 	font-size: 14px;
 	line-height: 0px;
+	color:#181818;
 }
 li, a {
 	color:#181818;
